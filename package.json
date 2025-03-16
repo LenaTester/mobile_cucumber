@@ -1,0 +1,27 @@
+{
+  "name": "webdriver4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdioSamsung": "wdio run ./wdio.conf.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wdio/cli": "^9.12.0",
+    "@wdio/cucumber-framework": "^9.11.0",
+    "@wdio/local-runner": "^9.12.0",
+    "@wdio/spec-reporter": "^9.11.0",
+    "@wdio/visual-service": "^6.3.2",
+    "appium-uiautomator2-driver": "^2.2.0",
+    "multiple-cucumber-html-reporter": "^3.9.2",
+    "wdio-cucumberjs-json-reporter": "^6.0.1"
+  },
+  "dependencies": {
+    "wdio-cucumber-json-reporter": "^0.0.4",
+    "webdriverio": "^9.12.0"
+  }
+}

@@ -4,3 +4,4 @@ node_modules/
 reports/
 /reports/
 /node_modules/
+./tmp/
